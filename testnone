@@ -1,0 +1,12 @@
+import RPi.GPIO as GPIO ## Import GPIO library
+import time ## Import 'time' library. Allows us to use 'sleep'
+
+GPIO.setmode(GPIO.BOARD) ## Use board pin numbering
+GPIO.setup(15, GPIO.IN, )
+prev_input = 3
+while True:
+    input = GPIO.input(15)
+    print("LED ON",input  )
+    time.sleep(0.5)
+GPIO.cleanup()
+
