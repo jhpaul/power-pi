@@ -34,6 +34,6 @@ def com(arg):
         if arg[1] in ("status", "s"):
             return status(pin)
     else:
-        return status()
+        return status(pin)
 
 print com(sys.argv)

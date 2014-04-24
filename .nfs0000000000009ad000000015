@@ -1,6 +1,6 @@
 from flask import Flask
-from flask import request, redirect, url_for
-import light, helpers
+from flask import request, redirect
+import light
 app = Flask(__name__)
 
 @app.route('/')
@@ -12,16 +12,15 @@ def hello_world():
 @app.route('/light', methods=['GET', 'PUT', 'POST'])
 def lights():
     if request.method in ('PUT', 'POST'):
-        helpers.toggle()
+        light.toggle()
+        return "Light Toggled \n" + light.status() +"\n"
     else:
         return light.status() + "\n"
 
 @app.route ('/light/toggle', methods=['GET','PUT','POST'])
 def toggle():
-    if request.method in ('PUT',"POST"):
-        return redirect(url_for('lights'), code=302)
-    else:
-        return helpers.toggle()
+	if request.method in ('PUT',"POST"):
+		return redirect("/light", code=302)
 if __name__ == '__main__':
     app.debug = True
     app.run(host="0.0.0.0")

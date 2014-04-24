@@ -18,7 +18,7 @@ def toggle():
         return "Light Off"
 
 # Check state of pin
-def status():
+def status(pin):
     input = GPIO.input(pin)
     if input == 1:
         return "Light Off"
@@ -27,13 +27,13 @@ def status():
 
         
 # define commandline options (none returns status)
-def com(arg):
+def com(pin,arg):
     if len(arg) > 1:
         if arg[1] in ("toggle","t"):
             return toggle(pin)
         if arg[1] in ("status", "s"):
             return status(pin)
     else:
-        return status()
+        return status(pin)
 
-print com(sys.argv)
+print com(pin, sys.argv)

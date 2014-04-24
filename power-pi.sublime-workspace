@@ -1,0 +1,408 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"eventsl",
+				"events_list_json"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"in",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "light.py",
+			"settings":
+			{
+				"buffer_size": 975,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".nfs0000000000009ad000000015",
+			"settings":
+			{
+				"buffer_size": 640,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "helpers.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 212.0,
+		"selected_items":
+		[
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"vie",
+				"View In Browser"
+			],
+			[
+				"vi",
+				"View In Browser"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"prev",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"mak",
+				"Set Syntax: Makefile"
+			],
+			[
+				"mard",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"previe",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTAL",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 546.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/jhpaul/tmp/server.py",
+		"/home/jhpaul/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/jhpaul/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/jhpaul/tmp/README.md",
+		"/home/jhpaul/tmp/gpio/server/server.py",
+		"/home/jhpaul/Dropbox/Shared (RIPHIL)/Hi Fransisco,",
+		"/home/jhpaul/Dropbox/Shared (RIPHIL)/pizza",
+		"/home/jhpaul/Dropbox/Shared (RIPHIL)/sidebyside/salads",
+		"/home/jhpaul/Dropbox/Shared (RIPHIL)/meeting-notes/12-19.md",
+		"/home/jhpaul/riphil/tickets/ticket-chrome-good.htm",
+		"/home/jhpaul/riphil/tickets/ticket-chrome-old.htm",
+		"/home/jhpaul/riphil/tickets/Jasmine",
+		"/home/jhpaul/riphil/tickets/ticket-chrome.htm",
+		"/home/jhpaul/riphil/tickets/ticket-chrome.css",
+		"/home/jhpaul/untitled.php",
+		"/home/jhpaul/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/jhpaul/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/jhpaul/riphil/tickets/tickets.css",
+		"/home/jhpaul/riphil/tickets/tickets.htm",
+		"/home/jhpaul/.config/sublime-text-3/Packages/User/MarkdownPreview.sublime-settings",
+		"/home/jhpaul/Dropbox/Shared (RIPHIL)/meeting-notes/11-21.md",
+		"/home/jhpaul/Dropbox/Shared (RIPHIL)/meeting-notes/11-15.md",
+		"/home/jhpaul/Dropbox/Shared (RIPHIL)/meeting-notes/11-26-wolski.md",
+		"/home/jhpaul/.config/sublime-text-3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/home/jhpaul/.config/sublime-text-3/Packages/SideBarEnhancements/CHANGELOG",
+		"/home/jhpaul/Dropbox/sublime extentions"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hide",
+			"        \n",
+			"Annette",
+			";\n",
+			"display: inline-block;",
+			"alt+shift+up",
+			"alt",
+			"super",
+			"move_to_group",
+			"ctrl+shift+up",
+			"line",
+			"up"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"display: -moz-inline-stack;\n	display: inline-block;",
+			"display: -moz-inline-stack;\ndisplay: inline-block;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "light.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 975,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".nfs0000000000009ad000000015",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "helpers.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "power-pi.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 331.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
