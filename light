@@ -1,0 +1,11 @@
+import RPi.GPIO as GPIO ## Import GPIO library
+import time ## Import 'time' library. Allows us to use 'sleep'
+
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BOARD) ## Use board pin numbering
+GPIO.setup(16, GPIO.OUT) ## Setup GPIO Pin 7 to OUT
+if (GPIO.input(16) == 1):
+    GPIO.output(16,0)
+else:
+    GPIO.output(16,1)
+    GPIO.cleanup()
