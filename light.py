@@ -9,5 +9,3 @@ def light():
         GPIO.output(16,0)
     else:
         GPIO.output(16,1)
-        GPIO.cleanup()
-light()
