@@ -1,11 +1,33 @@
 import RPi.GPIO as GPIO ## Import GPIO library
 import time ## Import 'time' library. Allows us to use 'sleep'
-
+import sys
+pin = 16
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD) ## Use board pin numbering
-GPIO.setup(16, GPIO.OUT) ## Setup GPIO Pin 7 to OUT
-def light():
-    if (GPIO.input(16) == 1):
+GPIO.setup(pin, GPIO.OUT) ## Setup GPIO Pin to OUT
+def toggle(pin):
+    input = GPIO.input(pin)
+    if (input == 1):
         GPIO.output(16,0)
+        return "Light On"
     else:
         GPIO.output(16,1)
+        return "Light Off"
+
+def status(pin):
+    input = GPIO.input(pin)
+    if input == 1:
+        return "Light Off"
+    if input == 0:
+        return "Light On"
+
+def com(pin,arg):
+    if len(arg) > 1:
+        if arg[1] in ("toggle","t"):
+            return toggle(pin)
+        if arg[1] in ("status", "s"):
+            return status(pin)
+    else:
+        return status(pin)
+
+print com(pin, sys.argv)
