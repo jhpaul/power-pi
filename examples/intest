@@ -2,16 +2,16 @@ import RPi.GPIO as GPIO ## Import GPIO library
 import time ## Import 'time' library. Allows us to use 'sleep'
 
 GPIO.setmode(GPIO.BOARD) ## Use board pin numbering
-GPIO.setup(15, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+GPIO.setup(13, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 prev_input = 3
 y = True
 while y == True:
-    input = GPIO.input(15)
+    input = GPIO.input(13)
     if (prev_input != input) and (input == GPIO.HIGH):
-        print("LED OFF",input  )
+        print("HIGH", input  )
     if (prev_input != input) and (input == GPIO.LOW):
-        print("LED ON", input)
+        print("LOW", input)
     prev_input = input
     time.sleep(0.5)
-    #y = False
+    y = False
 GPIO.cleanup()

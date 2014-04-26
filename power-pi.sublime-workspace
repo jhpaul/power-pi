@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"pos",
+				"position"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"s",
+				"sans-serif"
+			],
+			[
+				"li",
+				"lightStatus"
+			],
+			[
+				"prev",
+				"prev_input"
+			],
+			[
 				"eventsl",
 				"events_list_json"
 			],
@@ -28,26 +52,34 @@
 	"buffers":
 	[
 		{
-			"file": "light.py",
-			"settings":
-			{
-				"buffer_size": 975,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".nfs0000000000009ad000000015",
-			"settings":
-			{
-				"buffer_size": 640,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "helpers.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 165,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server.py",
+			"settings":
+			{
+				"buffer_size": 1705,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "power.py",
+			"settings":
+			{
+				"buffer_size": 564,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "light.py",
+			"settings":
+			{
+				"buffer_size": 1031,
 				"line_ending": "Unix"
 			}
 		}
@@ -55,9 +87,21 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 212.0,
+		"height": 341.0,
 		"selected_items":
 		[
+			[
+				"case",
+				"Convert Case: Upper Case"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
 			[
 				"dup",
 				"File: Duplicate"
@@ -99,10 +143,6 @@
 				"View In Browser"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"previe",
 				"Markdown Preview: Python Markdown: Preview in Browser"
 			],
@@ -135,7 +175,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 546.0
+		"width": 239.0
 	},
 	"console":
 	{
@@ -156,7 +196,14 @@
 	},
 	"file_history":
 	[
+		"/home/jhpaul/tmp/templates/index.html",
+		"/home/jhpaul/tmp/powerstate.py",
+		"/home/jhpaul/tmp/examples/intest",
+		"/home/jhpaul/tmp/examples/input",
+		"/home/jhpaul/tmp/helpers.py",
 		"/home/jhpaul/tmp/server.py",
+		"/home/jhpaul/tmp/light.py",
+		"/home/jhpaul/tmp/power-pi.sublime-project",
 		"/home/jhpaul/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
 		"/home/jhpaul/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/home/jhpaul/tmp/README.md",
@@ -199,6 +246,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"data",
+			"Light Off",
+			"LIGHT",
+			"Light",
+			"Light On",
+			"LIGHT ON",
+			"span",
+			"pin",
+			"15",
+			"prev",
+			"pin,",
+			"pin,0",
+			"pin,",
+			"0",
+			"pin,0",
+			"pin,",
+			"pin",
+			"lightStatus",
+			">\n",
+			"()\n",
 			"hide",
 			"        \n",
 			"Annette",
@@ -218,6 +285,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"light_pin",
+			"13",
+			"state_pin,",
+			"power_pin,",
 			"display: -moz-inline-stack;\n	display: inline-block;",
 			"display: -moz-inline-stack;\ndisplay: inline-block;"
 		],
@@ -235,54 +306,54 @@
 			[
 				{
 					"buffer": 0,
-					"file": "light.py",
+					"file": "helpers.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 975,
+						"buffer_size": 165,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								165,
+								165
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": ".nfs0000000000009ad000000015",
-					"semi_transient": true,
+					"file": "server.py",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 640,
+						"buffer_size": 1705,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								194,
+								194
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"color_scheme": "Packages/User/Color Highlighter/Monokai Extended.tmTheme",
+							"syntax": "Packages/Python/Python.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -295,27 +366,64 @@
 				},
 				{
 					"buffer": 2,
-					"file": "helpers.py",
+					"file": "power.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 564,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								124,
+								124
 							]
 						],
 						"settings":
 						{
+							"auto_name": "",
+							"color_scheme": "Packages/User/Color Highlighter/Monokai Extended.tmTheme",
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "light.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								580,
+								580
+							],
+							[
+								702,
+								702
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/Monokai Extended.tmTheme",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 144.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -366,7 +474,7 @@
 	"project": "power-pi.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
